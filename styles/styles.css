@@ -1,0 +1,30 @@
+header{
+    overflow: hidden;
+    margin: 1em auto;
+}
+
+
+#businessCard{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin: 30px;
+}
+#businessCard>img{
+    float: left;
+}
+ul{
+    display: inline-block;
+    height: 50px;
+}
+li{
+    display: inline-block;
+}
+#rssMail{
+    float: right;
+    
+}
+
+#social{
+    float: right;
+}
