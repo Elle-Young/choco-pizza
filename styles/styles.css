@@ -27,19 +27,22 @@ li{
 
 #rssMail{
     float: right;
+    padding-left: 8px
+
     
 }
 
 #social{
     float: right;
+
 }
 
 #chocopizza {
     width: 1024px;
 }
-
-form {
-    background-image: url(/Images/list-bg.png);
-    height: 275px;
-    padding:10px; 
+form{
+    display: inline-block;
+}
+input{
+    display: block;
 }
