@@ -1,8 +1,12 @@
+html {
+    width: 1024px;
+    padding: 30px;
+}
+
 header{
     overflow: hidden;
     margin: 1em auto;
 }
-
 
 #businessCard{
     display: inline-block;
@@ -13,13 +17,14 @@ header{
 #businessCard>img{
     float: left;
 }
-ul{
+.icons {
     display: inline-block;
     height: 50px;
 }
 li{
     display: inline-block;
 }
+
 #rssMail{
     float: right;
     
@@ -27,4 +32,14 @@ li{
 
 #social{
     float: right;
+}
+
+#chocopizza {
+    width: 1024px;
+}
+
+form {
+    background-image: url(/Images/list-bg.png);
+    height: 275px;
+    padding:10px; 
 }
