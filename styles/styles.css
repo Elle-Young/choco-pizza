@@ -9,13 +9,22 @@ header{
 }
 
 #businessCard{
-    display: inline-block;
-    float: left;
-    width: 200px;
-    margin: 30px;
+    font-family: 'Economica', sans-serif;
+    font-size: 15px;
+    /* font-family: 'Khand', sans-serif; */
+    /* float: left; */
+    width: auto;
+    height: auto;
 }
+#Delicious{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
 #businessCard>img{
     float: left;
+    height: 50px;
+    width: 50px;
 }
 .icons {
     display: inline-block;
@@ -31,6 +40,7 @@ li{
 
     
 }
+
 
 #social{
     float: right;
